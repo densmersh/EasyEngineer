@@ -176,6 +176,26 @@
     <Compile Include="Migrations\201606171356523_news.Designer.cs">
       <DependentUpon>201606171356523_news.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606191225480_news1.cs" />
+    <Compile Include="Migrations\201606191225480_news1.Designer.cs">
+      <DependentUpon>201606191225480_news1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606191228077_likes.cs" />
+    <Compile Include="Migrations\201606191228077_likes.Designer.cs">
+      <DependentUpon>201606191228077_likes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606191243213_likes1.cs" />
+    <Compile Include="Migrations\201606191243213_likes1.Designer.cs">
+      <DependentUpon>201606191243213_likes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606192304516_comments.cs" />
+    <Compile Include="Migrations\201606192304516_comments.Designer.cs">
+      <DependentUpon>201606192304516_comments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606192313301_comments1.cs" />
+    <Compile Include="Migrations\201606192313301_comments1.Designer.cs">
+      <DependentUpon>201606192313301_comments1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -252,6 +272,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606171356523_news.resx">
       <DependentUpon>201606171356523_news.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606191225480_news1.resx">
+      <DependentUpon>201606191225480_news1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606191228077_likes.resx">
+      <DependentUpon>201606191228077_likes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606191243213_likes1.resx">
+      <DependentUpon>201606191243213_likes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606192304516_comments.resx">
+      <DependentUpon>201606192304516_comments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606192313301_comments1.resx">
+      <DependentUpon>201606192313301_comments1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

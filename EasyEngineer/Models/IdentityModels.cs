@@ -32,10 +32,14 @@ namespace EasyEngineer.Models
         [Required]
         [Display(Name = "Теги")]
         [MaxLength(10, ErrorMessage = "Краткость - сестра таланта!")]
-
-        public int Like { get; set; }
-        public int Dislike { get; set; }
         public string Tag { get; set; }
+
+        public int Likes { get; set; }
+        [Required]
+        [Display(Name = "Добавить комментарий")]
+        [MaxLength(100, ErrorMessage = "Язык твой - враг твой!")]
+        public string Comments { get; set; }
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

@@ -85,5 +85,27 @@ namespace EasyEngineer.Controllers
             return(username);
 
         }
+
+        public ActionResult Like(int ID)
+        {
+            ApplicationDbContext db = new ApplicationDbContext();
+            News news = db.Newss.Find(ID);
+            news.Likes += 1;
+            db.Entry(news).State = EntityState.Modified;
+            db.SaveChanges();
+
+            return RedirectToAction("CurrentShow",news);
+        }
+
+        public ActionResult Dislike(int ID)
+        {
+            ApplicationDbContext db = new ApplicationDbContext();
+            News news = db.Newss.Find(ID);
+            news.Likes -= 1;
+            db.Entry(news).State = EntityState.Modified;
+            db.SaveChanges();
+
+            return RedirectToAction("CurrentShow", news);
+        }
 	}
 }

@@ -56,4 +56,9 @@ D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.Initi
 D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.csproj.GenerateResource.Cache
 D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.addmigrationnews.resources
 D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.news.resources
+D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.news1.resources
+D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.likes.resources
 D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.csprojResolveAssemblyReference.cache
+D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.likes1.resources
+D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.comments.resources
+D:\Install\Web\EasyEngineer\EasyEngineer\obj\Debug\EasyEngineer.Migrations.comments1.resources

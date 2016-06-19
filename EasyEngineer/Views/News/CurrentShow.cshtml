@@ -8,7 +8,7 @@
 <table>
     <tr>
         <td>
-        @Model.Id
+            @Model.Id
         </td>
         <td>
             @Model.Author
@@ -25,5 +25,15 @@
         <td>
             @Model.Tag
         </td>
+        <td>
+            @Model.Likes
+        </td>
+        <td>
+            @Html.ActionLink("Up","Like", new { ID = @Model.Id })
+        </td>
+        <td>
+            @Html.ActionLink("Down", "Dislike", new { ID = @Model.Id })
+        </td>
+
     </tr>
 </table>
