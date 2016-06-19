@@ -1,0 +1,29 @@
+﻿@model EasyEngineer.Models.News
+@{
+    ViewBag.Title = "CurrentShow";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CurrentShow</h2>
+<table>
+    <tr>
+        <td>
+        @Model.Id
+        </td>
+        <td>
+            @Model.Author
+        </td>
+        <td>
+            @Model.Name
+        </td>
+        <td>
+            @Model.Text
+        </td>
+        <td>
+            @Model.Date_pub
+        </td>
+        <td>
+            @Model.Tag
+        </td>
+    </tr>
+</table>
