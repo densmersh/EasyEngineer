@@ -1,0 +1,49 @@
+﻿@model EasyEngineer.Models.News
+
+
+
+
+
+@{
+    ViewBag.Title = @Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CurrentShow</h2>
+<table>
+    <tr>
+        <td>
+            @Model.Id
+        </td>
+        <td>
+            @Model.Author
+        </td>
+        <td>
+            @Model.Name
+        </td>
+        <td>
+            @Model.Text
+        </td>
+        <td>
+            @Model.Date_pub
+        </td>
+        <td>
+            @Model.Tag
+        </td>
+        <td>
+            @Model.Likes
+        </td>
+        <td>
+            @Html.ActionLink("Up","Like", new { ID = @Model.Id })
+        </td>
+        <td>
+            @Html.ActionLink("Down", "Dislike", new { ID = @Model.Id })
+        </td>
+        <td>
+            @Model.NewsCommentss
+        </td>
+    </tr>
+</table>
+<div>
+    @Html.ActionLink("Вернуться к списку", "Show")
+</div>

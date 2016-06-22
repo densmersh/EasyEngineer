@@ -1,0 +1,42 @@
+﻿@model IEnumerable<EasyEngineer.Models.News>
+
+@{
+    ViewBag.Title = "Список записей";
+}
+
+<h2>ListUserNews</h2>
+
+<p>
+    @Html.ActionLink("Создать новую", "Index")
+</p>
+<table class="table">
+    @foreach(var item in Model)
+    {
+
+        <tr>
+            <td>
+                @Html.Encode(item.Id)
+            </td>
+            <td>
+                @Html.ActionLink(item.Name, "CurrentShow", new { ID = item.Id })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date_pub)
+            </td>
+            <td>
+                @Html.ActionLink("Редактировать", "Edit", new { ID = item.Id })
+            </td>
+            <td>
+                @Html.ActionLink("Удалить", "Delete", new { ID = item.Id })
+            </td>
+        </tr>
+    }
+    
+
+</table>

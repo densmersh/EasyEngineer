@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BootstrapMvc.Core</id>
+    <version>2.1.0</version>
+    <title>BootstrapMvc.Core</title>
+    <authors>BootstrapMvc.Core</authors>
+    <owners>BootstrapMvc.Core</owners>
+    <projectUrl>https://github.com/justdmitry/BootstrapMvc</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BootstrapMvc.Core</description>
+    <summary>Core library for BootstrapMvc pack. Do not use directly (use BootstrapMvc.Bootstrap3Mvc5 or BootstrapMvc.Bootstrap3Mvc6 package).</summary>
+    <releaseNotes>Upgrade to RC2 and netstandard1.3</releaseNotes>
+    <copyright>Copyright © Dmitry Popov, 2015</copyright>
+    <tags>Bootstrap Mvc HtmlHelpers</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="System.IO" version="4.1.0-rc2-24027" />
+        <dependency id="System.Linq" version="4.1.0-rc2-24027" />
+        <dependency id="System.Linq.Expressions" version="4.0.11-rc2-24027" />
+        <dependency id="System.Runtime.Extensions" version="4.1.0-rc2-24027" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

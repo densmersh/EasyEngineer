@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BootstrapMvc.Bootstrap3</id>
+    <version>2.3.0</version>
+    <title>BootstrapMvc.Bootstrap3</title>
+    <authors>BootstrapMvc.Bootstrap3</authors>
+    <owners>BootstrapMvc.Bootstrap3</owners>
+    <projectUrl>https://github.com/justdmitry/BootstrapMvc</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BootstrapMvc.Bootstrap3</description>
+    <summary>Bootstrap 3.3 classes for BootstrapMvc pack. Do not use directly (use BootstrapMvc.Bootstrap3Mvc5 or BootstrapMvc.Bootstrap3Mvc6 package).</summary>
+    <releaseNotes>Upgrade to RC2 and netstandard1.3</releaseNotes>
+    <copyright>Copyright © Dmitry Popov, 2015</copyright>
+    <tags>Bootstrap Bootstrap3 Mvc HtmlHelpers</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="BootstrapMvc.Core" version="2.1.0" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="System.Globalization" version="4.0.11-rc2-24027" />
+        <dependency id="BootstrapMvc.Core" version="2.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

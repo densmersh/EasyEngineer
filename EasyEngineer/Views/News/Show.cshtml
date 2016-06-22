@@ -1,0 +1,32 @@
+﻿@model IEnumerable<EasyEngineer.Models.News>
+
+
+@{
+    ViewBag.Title = "Все новости";
+}
+
+<h2>Show</h2>
+<table class="table">
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>
+                @Html.Encode(item.Id)
+            </td>
+            <td>
+                @Html.ActionLink(item.Name, "CurrentShow", new { ID = item.Id })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date_pub)
+            </td>
+        </tr>
+    }
+</table>
+
